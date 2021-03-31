@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/myOntology#"
+     xml:base="http://www.semanticweb.org/myOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:myOntology="http://www.semanticweb.org/myOntology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/myOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#StopOnRoute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/myOntology#StopOnRoute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Stop-Time"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/myOntology#Route"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#TripMadeWithVehicle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/myOntology#TripMadeWithVehicle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#TripOnRoute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/myOntology#TripOnRoute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/myOntology#Route"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#isStop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/myOntology#isStop">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Stop-Time"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/myOntology#Stop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Agency_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Agency_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Agency"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Agency_phone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Agency_phone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Agency"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Agency_timezone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Agency_timezone">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Agency"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Agency_url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Agency_url">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Agency"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Arrival -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Arrival">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Stop-Time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Coordinates -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Coordinates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Stop"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Departure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Departure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Stop-Time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Direction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Direction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Trip"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#End_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#End_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Friday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Friday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#LongName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#LongName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Route"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Monday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Monday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#RouteType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#RouteType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Route"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Route_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Route_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Route"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Saturday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Saturday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Sequence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Sequence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Stop-Time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#ShortName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#ShortName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Route"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Start_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Start_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#StopName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#StopName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Stop"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#StopType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#StopType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Stop"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Sunday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Sunday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Thursday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Thursday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Tuesday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Tuesday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Wednesday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/myOntology#Wednesday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/myOntology#Calendar"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Agency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Airplane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Airplane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Boat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Boat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Calendar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Calendar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Calendar_dates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Calendar_dates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Ferry_boat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Ferry_boat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Intercity_bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Intercity_bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Interrail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Interrail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Route"/>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Service"/>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Stop"/>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Stop-Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Stop-Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Subway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Subway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Trip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Trip"/>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Trolley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Trolley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Urban_rail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Urban_rail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Vehicle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#Tram&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/myOntology#Tram&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#T3-20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#T3-20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/myOntology#Route"/>
+        <LongName>ΑΣΚΛΗΠΕΙΟ - ΒΟΥΛΑ</LongName>
+        <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</RouteType>
+        <ShortName>T3</ShortName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#010001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#010001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/myOntology#Stop"/>
+        <Coordinates>(37.9 , 23.6)</Coordinates>
+        <StopName>ΣΤΡΟΦΗ</StopName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#9803638-ΤΗΛΕΜΑ-Τ3-Παρασκευή-02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#9803638-ΤΗΛΕΜΑ-Τ3-Παρασκευή-02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/myOntology#Trip"/>
+        <TripOnRoute rdf:resource="http://www.semanticweb.org/myOntology#T3-20"/>
+        <Direction rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Direction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/myOntology#9803638-ΤΗΛΕΜΑ-Τ3-Παρασκευή-02-400045 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#9803638-ΤΗΛΕΜΑ-Τ3-Παρασκευή-02-400045">
+        <rdf:type rdf:resource="http://www.semanticweb.org/myOntology#Stop-Time"/>
+        <StopOnRoute rdf:resource="http://www.semanticweb.org/myOntology#T3-20"/>
+        <isStop rdf:resource="http://www.semanticweb.org/myOntology#010001"/>
+        <Arrival>05:30:00</Arrival>
+        <Departure>05:30:00</Departure>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
