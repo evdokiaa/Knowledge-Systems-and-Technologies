@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/myOntology#"
+     xml:base="http://www.semanticweb.org/myOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:myOntology="http://www.semanticweb.org/myOntology#">
+     <owl:Ontology rdf:about="http://www.semanticweb.org/myOntology"/>
+
+
+
+
+
+
+<owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#Τ3-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>ΝΕΟ ΦΑΛΗΡΟ - AΣΚΛΗΠΕΙΟ ΒΟΥΛΑ</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</RouteType>
+      <ShortName>Τ3</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#Τ4-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΣΥΝΤΑΓΜΑ - ΝΕΟ ΦΑΛΗΡΟ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</RouteType>
+      <ShortName>Τ4</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#Τ5-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΣΥΝΤΑΓΜΑ - ΒΟΥΛΑ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</RouteType>
+      <ShortName>Τ5</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#Μ2-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΑΝΘΟΥΠΟΛΗ - ΣΤ.ΕΛΛΗΝΙΚΟ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</RouteType>
+      <ShortName>Μ2</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#Μ3-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΑΓΙΑ ΜΑΡΙΝΑ - ΔΟΥΚ. ΠΛΑΚΕΝΤΙΑΣ - ΑΕΡΟΔΡΟΜΙΟ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</RouteType>
+      <ShortName>Μ3</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#Μ1-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΠΕΙΡΑΙΑΣ - ΚΗΦΙΣΙΑ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</RouteType>
+      <ShortName>Μ1</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#1-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΠΛΑΤ. ΑΤΤΙΚΗΣ - ΤΖΙΤΖΙΦΙΕΣ - ΜΟΣΧΑΤΟ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>1</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#2-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΑΝΩ ΚΥΨΕΛΗ - ΠΑΓΚΡΑΤΙ - ΚΑΙΣΑΡΙΑΝΗ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>2</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#3-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"Ν. ΦΙΛΑΔΕΛΦΕΙΑ - ΑΝΩ ΠΑΤΗΣΙΑ - ΝΕΟ ΨΥΧΙΚΟ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>3</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#4-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΑΝΩ ΚΥΨΕΛΗ - ΑΓ. ΑΡΤΕΜΙΟΣ - ΣΤ. ΜΕΤΡΟ ΑΓ. ΙΩΑΝΝΗΣ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>4</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#5-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΛΑΜΠΡΙΝΗ - ΠΛ. ΣΥΝΤΑΓΜΑΤΟΣ - ΤΖΙΤΖΙΦΙΕΣ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>5</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#6-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΙΠΠΟΚΡΑΤΟΥΣ -ΚΟΣΜΑΣ ΑΙΤΩΛΟΣ- Ν. ΦΙΛΑΔΕΛΦΕΙΑ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>6</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#10-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΤΖΙΤΖΙΦΙΕΣ - ΧΑΛΑΝΔΡΙ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>10</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#11-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"Α. ΠΑΤΗΣΙΑ - Ν. ΠΑΓΚΡΑΤΙ - Ν. ΕΛΒΕΤΙΑ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>11</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#12-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΖΑΠΠΕΙΟ - ΠΕΡΙΣΤΕΡΙ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>12</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#14-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΛΑΜΠΡΙΝΗ - Λ. ΑΛΕΞΑΝΔΡΑΣ - ΓΗΡΟΚΟΜΕΙΟ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>14</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#15-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΠΕΤΡΑΛΩΝΑ - ΔΙΚΑΣΤΗΡΙΑ - ΕΛ. ΒΕΝΙΖΕΛΟΥ"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>15</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#16-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΑΓ. ΙΩΑΝΝΗΣ ΡΕΝΤΗΣ - ΠΕΙΡΑΙΑΣ (ΚΥΚΛΙΚΗ)"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>16</ShortName>
+</owl:NamedIndividual>
+ 
+ <owl:NamedIndividual rdf:about="http://www.semanticweb.org/myOntology#17-20"> 
+      <rdf:type rdf:resource="http://www.semantciweb.org/myOntology#Route"/>
+      <LongName>"ΠΕΙΡΑΙΑΣ - ΑΓ. ΓΕΩΡΓΙΟΣ (ΚΥΚΛΙΚΗ)"</LongName>
+      <RouteType rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</RouteType>
+      <ShortName>17</ShortName>
+</owl:NamedIndividual>
+
+</rdf:RDF>
